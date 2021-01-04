@@ -8,12 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		CF3DF71325A3B29C00551093 /* APSuggestions.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3DF71125A3B29C00551093 /* APSuggestions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF3DF71B25A3B2AF00551093 /* APSuggestionsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DF71A25A3B2AF00551093 /* APSuggestionsWindowController.swift */; };
+		CF3DF72A25A3B3D500551093 /* APSuggestibleTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DF72425A3B3D300551093 /* APSuggestibleTextFieldCell.swift */; };
+		CF3DF72C25A3B3D500551093 /* APHighlightingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DF72625A3B3D400551093 /* APHighlightingView.swift */; };
+		CF3DF72D25A3B3D500551093 /* APRoundedCornersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DF72725A3B3D400551093 /* APRoundedCornersView.swift */; };
+		CF3DF72E25A3B3D500551093 /* APFramworkDefaultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF3DF72825A3B3D400551093 /* APFramworkDefaultCell.xib */; };
+		CF3DF73825A3B50000551093 /* APSuggestionsWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DF73725A3B50000551093 /* APSuggestionsWindow.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3EC05325A3C0FD005E2A7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CF3EC02025A3C0F9005E2A7A;
+			remoteInfo = "APSuggestions Example";
+		};
+		CF3EC05525A3C0FD005E2A7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CF3EC03025A3C0FC005E2A7A;
+			remoteInfo = "APSuggestions ExampleTests";
+		};
+		CF3EC05725A3C0FD005E2A7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CF3EC03B25A3C0FC005E2A7A;
+			remoteInfo = "APSuggestions ExampleUITests";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CF3DF70E25A3B29C00551093 /* APSuggestions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APSuggestions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3DF71125A3B29C00551093 /* APSuggestions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APSuggestions.h; sourceTree = "<group>"; };
 		CF3DF71225A3B29C00551093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3DF71A25A3B2AF00551093 /* APSuggestionsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APSuggestionsWindowController.swift; sourceTree = "<group>"; };
+		CF3DF72425A3B3D300551093 /* APSuggestibleTextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APSuggestibleTextFieldCell.swift; sourceTree = "<group>"; };
+		CF3DF72625A3B3D400551093 /* APHighlightingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APHighlightingView.swift; sourceTree = "<group>"; };
+		CF3DF72725A3B3D400551093 /* APRoundedCornersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APRoundedCornersView.swift; sourceTree = "<group>"; };
+		CF3DF72825A3B3D400551093 /* APFramworkDefaultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APFramworkDefaultCell.xib; sourceTree = "<group>"; };
+		CF3DF73725A3B50000551093 /* APSuggestionsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APSuggestionsWindow.swift; sourceTree = "<group>"; };
+		CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "APSuggestions Example.xcodeproj"; path = "../../APSuggestions Example/APSuggestions Example.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +85,25 @@
 			children = (
 				CF3DF71125A3B29C00551093 /* APSuggestions.h */,
 				CF3DF71225A3B29C00551093 /* Info.plist */,
+				CF3DF71A25A3B2AF00551093 /* APSuggestionsWindowController.swift */,
+				CF3DF73725A3B50000551093 /* APSuggestionsWindow.swift */,
+				CF3DF72425A3B3D300551093 /* APSuggestibleTextFieldCell.swift */,
+				CF3DF72725A3B3D400551093 /* APRoundedCornersView.swift */,
+				CF3DF72625A3B3D400551093 /* APHighlightingView.swift */,
+				CF3DF72825A3B3D400551093 /* APFramworkDefaultCell.xib */,
+				CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */,
 			);
 			path = APSuggestions;
+			sourceTree = "<group>";
+		};
+		CF3EC04E25A3C0FC005E2A7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EC05425A3C0FD005E2A7A /* APSuggestions Example.app */,
+				CF3EC05625A3C0FD005E2A7A /* APSuggestions ExampleTests.xctest */,
+				CF3EC05825A3C0FD005E2A7A /* APSuggestions ExampleUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +148,7 @@
 				TargetAttributes = {
 					CF3DF70D25A3B29C00551093 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -108,6 +163,12 @@
 			mainGroup = CF3DF70425A3B29C00551093;
 			productRefGroup = CF3DF70F25A3B29C00551093 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CF3EC04E25A3C0FC005E2A7A /* Products */;
+					ProjectRef = CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				CF3DF70D25A3B29C00551093 /* APSuggestions */,
@@ -115,11 +176,36 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		CF3EC05425A3C0FD005E2A7A /* APSuggestions Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "APSuggestions Example.app";
+			remoteRef = CF3EC05325A3C0FD005E2A7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF3EC05625A3C0FD005E2A7A /* APSuggestions ExampleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "APSuggestions ExampleTests.xctest";
+			remoteRef = CF3EC05525A3C0FD005E2A7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF3EC05825A3C0FD005E2A7A /* APSuggestions ExampleUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "APSuggestions ExampleUITests.xctest";
+			remoteRef = CF3EC05725A3C0FD005E2A7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		CF3DF70C25A3B29C00551093 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3DF72E25A3B3D500551093 /* APFramworkDefaultCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF3DF72A25A3B3D500551093 /* APSuggestibleTextFieldCell.swift in Sources */,
+				CF3DF72C25A3B3D500551093 /* APHighlightingView.swift in Sources */,
+				CF3DF72D25A3B3D500551093 /* APRoundedCornersView.swift in Sources */,
+				CF3DF71B25A3B2AF00551093 /* APSuggestionsWindowController.swift in Sources */,
+				CF3DF73825A3B50000551093 /* APSuggestionsWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +351,7 @@
 		CF3DF71725A3B29C00551093 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -276,6 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ashwin.APSuggestions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -283,6 +376,7 @@
 		CF3DF71825A3B29C00551093 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;

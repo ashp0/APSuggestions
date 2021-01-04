@@ -17,23 +17,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CF3EC05325A3C0FD005E2A7A /* PBXContainerItemProxy */ = {
+		CF13FC9925A3C4B000E99653 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */;
+			containerPortal = CF13FC9325A3C4AF00E99653 /* APSuggestions Example.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = CF3EC02025A3C0F9005E2A7A;
 			remoteInfo = "APSuggestions Example";
 		};
-		CF3EC05525A3C0FD005E2A7A /* PBXContainerItemProxy */ = {
+		CF13FC9B25A3C4B000E99653 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */;
+			containerPortal = CF13FC9325A3C4AF00E99653 /* APSuggestions Example.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = CF3EC03025A3C0FC005E2A7A;
 			remoteInfo = "APSuggestions ExampleTests";
 		};
-		CF3EC05725A3C0FD005E2A7A /* PBXContainerItemProxy */ = {
+		CF13FC9D25A3C4B000E99653 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */;
+			containerPortal = CF13FC9325A3C4AF00E99653 /* APSuggestions Example.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = CF3EC03B25A3C0FC005E2A7A;
 			remoteInfo = "APSuggestions ExampleUITests";
@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF13FC9325A3C4AF00E99653 /* APSuggestions Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "APSuggestions Example.xcodeproj"; path = "APSuggestions Example/APSuggestions Example.xcodeproj"; sourceTree = "<group>"; };
 		CF3DF70E25A3B29C00551093 /* APSuggestions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APSuggestions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3DF71125A3B29C00551093 /* APSuggestions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APSuggestions.h; sourceTree = "<group>"; };
 		CF3DF71225A3B29C00551093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		CF3DF72725A3B3D400551093 /* APRoundedCornersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APRoundedCornersView.swift; sourceTree = "<group>"; };
 		CF3DF72825A3B3D400551093 /* APFramworkDefaultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APFramworkDefaultCell.xib; sourceTree = "<group>"; };
 		CF3DF73725A3B50000551093 /* APSuggestionsWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APSuggestionsWindow.swift; sourceTree = "<group>"; };
-		CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "APSuggestions Example.xcodeproj"; path = "../../APSuggestions Example/APSuggestions Example.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +64,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF13FC9425A3C4B000E99653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF13FC9A25A3C4B000E99653 /* APSuggestions Example.app */,
+				CF13FC9C25A3C4B000E99653 /* APSuggestions ExampleTests.xctest */,
+				CF13FC9E25A3C4B000E99653 /* APSuggestions ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF3DF70425A3B29C00551093 = {
 			isa = PBXGroup;
 			children = (
@@ -91,19 +101,9 @@
 				CF3DF72725A3B3D400551093 /* APRoundedCornersView.swift */,
 				CF3DF72625A3B3D400551093 /* APHighlightingView.swift */,
 				CF3DF72825A3B3D400551093 /* APFramworkDefaultCell.xib */,
-				CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */,
+				CF13FC9325A3C4AF00E99653 /* APSuggestions Example.xcodeproj */,
 			);
 			path = APSuggestions;
-			sourceTree = "<group>";
-		};
-		CF3EC04E25A3C0FC005E2A7A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CF3EC05425A3C0FD005E2A7A /* APSuggestions Example.app */,
-				CF3EC05625A3C0FD005E2A7A /* APSuggestions ExampleTests.xctest */,
-				CF3EC05825A3C0FD005E2A7A /* APSuggestions ExampleUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +165,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = CF3EC04E25A3C0FC005E2A7A /* Products */;
-					ProjectRef = CF3EC04D25A3C0FC005E2A7A /* APSuggestions Example.xcodeproj */;
+					ProductGroup = CF13FC9425A3C4B000E99653 /* Products */;
+					ProjectRef = CF13FC9325A3C4AF00E99653 /* APSuggestions Example.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -177,25 +177,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		CF3EC05425A3C0FD005E2A7A /* APSuggestions Example.app */ = {
+		CF13FC9A25A3C4B000E99653 /* APSuggestions Example.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = "APSuggestions Example.app";
-			remoteRef = CF3EC05325A3C0FD005E2A7A /* PBXContainerItemProxy */;
+			remoteRef = CF13FC9925A3C4B000E99653 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CF3EC05625A3C0FD005E2A7A /* APSuggestions ExampleTests.xctest */ = {
+		CF13FC9C25A3C4B000E99653 /* APSuggestions ExampleTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "APSuggestions ExampleTests.xctest";
-			remoteRef = CF3EC05525A3C0FD005E2A7A /* PBXContainerItemProxy */;
+			remoteRef = CF13FC9B25A3C4B000E99653 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		CF3EC05825A3C0FD005E2A7A /* APSuggestions ExampleUITests.xctest */ = {
+		CF13FC9E25A3C4B000E99653 /* APSuggestions ExampleUITests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "APSuggestions ExampleUITests.xctest";
-			remoteRef = CF3EC05725A3C0FD005E2A7A /* PBXContainerItemProxy */;
+			remoteRef = CF13FC9D25A3C4B000E99653 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

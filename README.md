@@ -1,7 +1,7 @@
 # APSuggestions
 NSSearchfield Suggestions
 
-![](image1)
+![](image1.png)
 
 ## How to use?
 

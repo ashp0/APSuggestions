@@ -12,3 +12,6 @@ https://github.com/Ashwin-Paudel/APSuggestions/blob/main/APSuggestions%20Example
 in the `viewDidLoad` type `APsuggestionCellNib = "Your XIB File"`
 
 Make sure your view in the XIB class is set to `APHighlightingView`
+
+
+# More features yet to come...

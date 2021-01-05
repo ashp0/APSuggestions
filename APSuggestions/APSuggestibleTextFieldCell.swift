@@ -7,7 +7,7 @@ class APSuggestibleTextFieldCell: NSSearchFieldCell {
      */
     override func draw(withFrame cellFrame: NSRect, in controlView: NSView) {
         let textColor: NSColor? = self.textColor
-        if backgroundStyle == .dark {
+        if backgroundStyle == NSView.BackgroundStyle.emphasized {
             self.textColor = NSColor.white
         }
         super.draw(withFrame: cellFrame, in: controlView)

@@ -4,6 +4,7 @@ NSSearchfield Suggestions
 ![](image1.png)
 
 ## How to use?
+#### If you want to use this, please give some credit
 
 This is an example file 
 It is easy to understand

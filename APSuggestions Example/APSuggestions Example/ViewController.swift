@@ -18,7 +18,7 @@ class ViewController: NSViewController, NSSearchFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         searchField.delegate = self
-        // Edit this if you want your own suggestions cell, if not the default is "APFramworkDefaultCell" or leave it blank
+        // Edit this if you want your own suggestions cell, if not the default is "APFramworkDefaultCell" or delete this line
         APsuggestionCellNib = "SearchCell"
     }
     

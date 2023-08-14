@@ -1,15 +1,12 @@
 # APSuggestions
 > Project no longer in development
 
-NSSearchfield Suggestions
+This will show you how to add a search suggestions window underneath an NSSearchField.
 
 ![](image1.png)
 
 ## How to use?
-#### If you want to use this, please give some credit
-
-This is an example file 
-It is easy to understand
+*Example:*
 https://github.com/Ashwin-Paudel/APSuggestions/blob/main/APSuggestions%20Example/APSuggestions%20Example/ViewController.swift
 
 ## Making a custom cell
